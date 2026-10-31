@@ -18,7 +18,8 @@ import {
   Sparkles,
 } from "lucide-react";
 import { NeuralNetworkIllustration } from "@/components/illustrations/NeuralNetworkIllustration";
-
+import { LogisticRegressionIllustration } from "@/components/illustrations/LogisticRegressionIllustration";
+import { DecisionTreeIllustration } from "@/components/illustrations/DecisionTreeIllustration";
 const COLORS = {
   bg: "#071719",
   panel: "#102A2B",
@@ -446,6 +447,9 @@ export default function AnimationLabPage() {
 
       {/* ILLUSTRATIONS */}
       <section className="px-5 py-12 sm:px-8 sm:py-16 lg:px-12">
+        <LogisticRegressionIllustration />
+
+        <DecisionTreeIllustration />
         <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-2">
           {/* Illustration 1 */}
           <motion.article
