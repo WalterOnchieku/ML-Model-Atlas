@@ -29,6 +29,9 @@ import {
   Lightbulb,
   Network,
   X,
+  MessageSquareText,
+  Workflow,
+  Waypoints
 } from "lucide-react";
 
 // Organize navigation links into logical groups.
@@ -70,6 +73,21 @@ const navigationGroups = [
         label: "ML workflows",
         href: "/workflows",
         icon: ChartNoAxesCombined,
+      },
+      {
+        label: "RAG Deep Dive",
+        href: "/rag-deep-dive",
+        icon: Workflow,
+      },
+      {
+        label: "RAG Visualizer",
+        href: "/rag-visualizer",
+        icon: Waypoints,
+      },
+      {
+        label: "Interview Q/A",
+        href: "/interview-qa",
+        icon: MessageSquareText,
       },
       {
         label: "Glossary",
